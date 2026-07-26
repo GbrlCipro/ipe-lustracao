@@ -1,551 +1,747 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ipê Lustração | Carpintaria, Decks e Pergolados em Rio Verde-GO</title>
-<meta name="description" content="Ipê Lustração: carpintaria especializada em decks de piscina, pergolados, forros, móveis rústicos e restauração de madeira em Rio Verde-GO. Orçamento pelo WhatsApp.">
-<meta name="keywords" content="carpintaria Rio Verde GO, restauração de madeira, deck de piscina, pergolado de madeira, forro paulista, móveis rústicos, lustração de madeira, marcenaria Rio Verde">
-<meta property="og:title" content="Ipê Lustração | Madeira de Lei em Rio Verde-GO">
-<meta property="og:description" content="Decks, pergolados, forros e restauração de madeira com acabamento de longa duração. Orçamento direto no WhatsApp.">
-<meta property="og:type" content="website">
-<meta property="og:locale" content="pt_BR">
-<link rel="canonical" href="https://ipelustracao.com.br/">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ipê Lustração | Carpintaria, Decks e Pergolados em Rio Verde-GO</title>
+  <meta name="description"
+    content="Ipê Lustração: carpintaria especializada em decks de piscina, pergolados, forros, móveis rústicos e restauração de madeira em Rio Verde-GO. Orçamento pelo WhatsApp.">
+  <meta name="keywords"
+    content="carpintaria Rio Verde GO, restauração de madeira, deck de piscina, pergolado de madeira, forro paulista, móveis rústicos, lustração de madeira, marcenaria Rio Verde">
+  <meta property="og:title" content="Ipê Lustração | Madeira de Lei em Rio Verde-GO">
+  <meta property="og:description"
+    content="Decks, pergolados, forros e restauração de madeira com acabamento de longa duração. Orçamento direto no WhatsApp.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <link rel="canonical" href="https://ipelustracao.com.br/">
 
-<!-- Fonts: Fraunces (display, com peso variável e itálico orgânico) + Work Sans (corpo/UI) -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Fonts: Fraunces (display, com peso variável e itálico orgânico) + Work Sans (corpo/UI) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Work+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
 
-<script src="https://cdn.tailwindcss.com"></script>
-<script>
-  tailwind.config = {
-    theme: {
-      extend: {
-        colors: {
-          espresso: '#2A1C13',
-          espresso2: '#1E140D',
-          walnut: '#5C3A21',
-          walnutLight: '#7A5233',
-          honey: '#C6852E',
-          honeyLight: '#E0A75A',
-          cream: '#F4EEE3',
-          creamDark: '#E9DFCC',
-          sage: '#3E5C58',
-        },
-        fontFamily: {
-          display: ['"Fraunces"', 'serif'],
-          body: ['"Work Sans"', 'sans-serif'],
-        },
+  <!--Icones e Favicon-->
+
+  <!-- Favicon clássico para navegadores tradicionais -->
+  <link rel="icon" href="/favicon.png" sizes="any">
+
+  <!-- Favicon moderno em formato PNG -->
+  <link rel="icon" href="/icon.png" type="image/png">
+
+  <link rel="manifest" href="/manifest.json">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            espresso: '#2A1C13',
+            espresso2: '#1E140D',
+            walnut: '#5C3A21',
+            walnutLight: '#7A5233',
+            honey: '#C6852E',
+            honeyLight: '#E0A75A',
+            cream: '#F4EEE3',
+            creamDark: '#E9DFCC',
+            sage: '#3E5C58',
+          },
+          fontFamily: {
+            display: ['"Fraunces"', 'serif'],
+            body: ['"Work Sans"', 'sans-serif'],
+          },
+        }
       }
     }
-  }
-</script>
+  </script>
 
-<style>
-  html { scroll-behavior: smooth; }
-  body { font-family: 'Work Sans', sans-serif; background-color: #F4EEE3; }
-  .font-display { font-family: 'Fraunces', serif; }
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
 
-  /* Textura sutil de grão de madeira usada como pano de fundo em seções escuras */
-  .wood-grain {
-    background-image:
-      repeating-linear-gradient(100deg, rgba(0,0,0,0.14) 0px, rgba(0,0,0,0.14) 1px, transparent 1px, transparent 7px),
-      linear-gradient(120deg, #2A1C13 0%, #24170F 45%, #2A1C13 100%);
-  }
+    body {
+      font-family: 'Work Sans', sans-serif;
+      background-color: #F4EEE3;
+    }
 
-  /* Ripa diagonal — motivo repetido nas fotos do cliente (tábuas de deck em diagonal) usado como assinatura visual */
-  .plank-divider {
-    background: repeating-linear-gradient(
-      -35deg,
-      #5C3A21 0px, #5C3A21 26px,
-      #6B4529 26px, #6B4529 30px
-    );
-  }
+    .font-display {
+      font-family: 'Fraunces', serif;
+    }
 
-  .eyebrow {
-    letter-spacing: 0.22em;
-    font-weight: 600;
-    font-size: 0.72rem;
-  }
+    /* Textura sutil de grão de madeira usada como pano de fundo em seções escuras */
+    .wood-grain {
+      background-image:
+        repeating-linear-gradient(100deg, rgba(0, 0, 0, 0.14) 0px, rgba(0, 0, 0, 0.14) 1px, transparent 1px, transparent 7px),
+        linear-gradient(120deg, #2A1C13 0%, #24170F 45%, #2A1C13 100%);
+    }
 
-  .btn-whatsapp {
-    transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
-  }
-  .btn-whatsapp:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 12px 28px -8px rgba(198,133,46,0.55);
-  }
+    /* Ripa diagonal — motivo repetido nas fotos do cliente (tábuas de deck em diagonal) usado como assinatura visual */
+    .plank-divider {
+      background: repeating-linear-gradient(-35deg,
+          #5C3A21 0px, #5C3A21 26px,
+          #6B4529 26px, #6B4529 30px);
+    }
 
-  .service-card {
-    transition: transform 0.35s cubic-bezier(.2,.8,.2,1), border-color 0.35s ease, background-color 0.35s ease;
-  }
-  .service-card:hover {
-    transform: translateY(-6px);
-    border-color: #C6852E;
-  }
+    .eyebrow {
+      letter-spacing: 0.22em;
+      font-weight: 600;
+      font-size: 1rem;
+    }
 
-  /* Masonry via CSS columns para a galeria */
-  .masonry {
-    column-count: 1;
-    column-gap: 1rem;
-  }
-  @media (min-width: 640px) { .masonry { column-count: 2; } }
-  @media (min-width: 1024px) { .masonry { column-count: 3; } }
-  .masonry-item {
-    break-inside: avoid;
-    margin-bottom: 1rem;
-    position: relative;
-    overflow: hidden;
-    border-radius: 0.375rem;
-  }
-  .masonry-item img {
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: transform 0.6s cubic-bezier(.2,.8,.2,1), filter 0.6s ease;
-  }
-  .masonry-item:hover img {
-    transform: scale(1.06);
-  }
-  .masonry-caption {
-    position: absolute; inset: 0;
-    background: linear-gradient(to top, rgba(20,13,8,0.88) 0%, rgba(20,13,8,0.15) 55%, transparent 100%);
-    opacity: 0;
-    transition: opacity 0.4s ease;
-    display: flex;
-    align-items: flex-end;
-    padding: 1rem;
-  }
-  .masonry-item:hover .masonry-caption { opacity: 1; }
+    .btn-whatsapp {
+      transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
+    }
 
-  /* Slider Antes/Depois */
-  .ba-wrap {
-    position: relative;
-    overflow: hidden;
-    border-radius: 0.5rem;
-    aspect-ratio: 4/3;
-    cursor: ew-resize;
-    user-select: none;
-  }
-  .ba-wrap img { position:absolute; inset:0; width:100%; height:100%; object-fit: cover; display:block; }
-  .ba-after { z-index: 1; }
-  .ba-before-clip { position:absolute; inset:0; overflow:hidden; z-index:2; }
-  .ba-before-clip img { position:absolute; inset:0; }
-  .ba-handle {
-    position:absolute; top:0; bottom:0; width:3px; background: #F4EEE3;
-    z-index:3; box-shadow: 0 0 0 1px rgba(0,0,0,0.2);
-  }
-  .ba-handle::after {
-    content: "";
-    position:absolute; top:50%; left:50%; transform: translate(-50%,-50%);
-    width: 42px; height: 42px; border-radius: 999px;
-    background: #F4EEE3;
-    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232A1C13' stroke-width='2'><path d='M8 7L3 12l5 5M16 7l5 5-5 5'/></svg>");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 20px 20px;
-    box-shadow: 0 4px 14px rgba(0,0,0,0.35);
-  }
-  .ba-tag {
-    position:absolute; z-index:4; top:0.85rem;
-    font-family: 'Work Sans', sans-serif; font-weight:600; font-size:0.68rem;
-    letter-spacing:0.14em; padding: 0.3rem 0.65rem; border-radius: 999px;
-    background: rgba(20,13,8,0.72); color: #F4EEE3;
-  }
+    .btn-whatsapp:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 28px -8px rgba(198, 133, 46, 0.55);
+    }
 
-  /* Foco de teclado visível */
-  a:focus-visible, button:focus-visible {
-    outline: 2px solid #C6852E;
-    outline-offset: 3px;
-  }
+    .service-card {
+      transition: transform 0.35s cubic-bezier(.2, .8, .2, 1), border-color 0.35s ease, background-color 0.35s ease;
+    }
 
-  @media (prefers-reduced-motion: reduce) {
-    * { animation: none !important; transition: none !important; }
-  }
-</style>
+    .service-card:hover {
+      transform: translateY(-6px);
+      border-color: #C6852E;
+    }
+
+    .baslider1,
+    .baslider2 {
+      touch-action: none;
+      /* Impede o celular de bloquear o gesto horizontal */
+    }
+
+    /* Masonry via CSS columns para a galeria */
+    .masonry {
+      column-count: 1;
+      column-gap: 1rem;
+    }
+
+    @media (min-width: 640px) {
+      .masonry {
+        column-count: 2;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .masonry {
+        column-count: 3;
+      }
+    }
+
+    .masonry-item {
+      break-inside: avoid;
+      margin-bottom: 1rem;
+      position: relative;
+      overflow: hidden;
+      border-radius: 0.375rem;
+    }
+
+    .masonry-item img {
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: transform 0.6s cubic-bezier(.2, .8, .2, 1), filter 0.6s ease;
+    }
+
+    .masonry-item:hover img {
+      transform: scale(1.06);
+    }
+
+    .masonry-caption {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(20, 13, 8, 0.88) 0%, rgba(20, 13, 8, 0.15) 55%, transparent 100%);
+      opacity: 0;
+      transition: opacity 0.4s ease;
+      display: flex;
+      align-items: flex-end;
+      padding: 1rem;
+    }
+
+    .masonry-item:hover .masonry-caption {
+      opacity: 1;
+    }
+
+    /* Slider Antes/Depois */
+    .ba-wrap {
+      position: relative;
+      overflow: hidden;
+      border-radius: 0.5rem;
+      aspect-ratio: 4/3;
+      cursor: ew-resize;
+      user-select: none;
+    }
+
+    .ba-wrap img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .ba-after {
+      z-index: 1;
+    }
+
+    .ba-before-clip {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      z-index: 2;
+    }
+
+    .ba-before-clip img {
+      position: absolute;
+      inset: 0;
+    }
+
+    .ba-handle {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 3px;
+      background: #F4EEE3;
+      z-index: 3;
+      box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    }
+
+    .ba-handle::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 42px;
+      height: 42px;
+      border-radius: 999px;
+      background: #F4EEE3;
+      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232A1C13' stroke-width='2'><path d='M8 7L3 12l5 5M16 7l5 5-5 5'/></svg>");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 20px 20px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+    }
+
+    .ba-tag {
+      position: absolute;
+      z-index: 4;
+      top: 0.85rem;
+      font-family: 'Work Sans', sans-serif;
+      font-weight: 600;
+      font-size: 0.68rem;
+      letter-spacing: 0.14em;
+      padding: 0.3rem 0.65rem;
+      border-radius: 999px;
+      background: rgba(20, 13, 8, 0.72);
+      color: #F4EEE3;
+    }
+
+    /* Foco de teclado visível */
+    a:focus-visible,
+    button:focus-visible {
+      outline: 2px solid #C6852E;
+      outline-offset: 3px;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        animation: none !important;
+        transition: none !important;
+      }
+    }
+  </style>
 </head>
 
 <body class="text-espresso antialiased">
 
-<!-- ===================== HEADER ===================== -->
-<header class="fixed top-0 left-0 right-0 z-40 bg-espresso/95 backdrop-blur-sm border-b border-white/10">
-  <div class="max-w-6xl mx-auto px-5 sm:px-8 h-16 flex items-center justify-between">
-    <a href="#topo" class="font-display text-cream text-xl tracking-wide">
-      Ipê <span class="italic text-honey">Lustração</span>
-    </a>
-    <nav class="hidden md:flex items-center gap-8 text-cream/85 text-sm font-medium">
-      <a href="#sobre" class="hover:text-honey transition-colors">Sobre</a>
-      <a href="#servicos" class="hover:text-honey transition-colors">Serviços</a>
-      <a href="#galeria" class="hover:text-honey transition-colors">Galeria</a>
-      <a href="#contato" class="hover:text-honey transition-colors">Contato</a>
-    </nav>
-    <a href="https://wa.me/5564900000000?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento."
-       target="_blank" rel="noopener"
-       class="hidden sm:inline-flex items-center gap-2 bg-honey hover:bg-honeyLight text-espresso font-semibold text-sm px-5 py-2.5 rounded-full transition-colors">
-      Orçamento no WhatsApp
-    </a>
-  </div>
-</header>
-
-<!-- ===================== HERO ===================== -->
-<section id="topo" class="relative min-h-[100svh] flex items-end wood-grain overflow-hidden">
-  <!-- Foto de fundo impactante (deck junto à piscina, do portfólio do cliente) -->
-  <div class="absolute inset-0">
-    <img src="img/hero.jpg" alt="Deck de madeira ipê construído ao redor de piscina, com cerca-viva ao fundo"
-         class="w-full h-full object-cover opacity-45">
-    <div class="absolute inset-0 bg-gradient-to-t from-espresso via-espresso/70 to-espresso/30"></div>
-    <div class="absolute inset-0 bg-gradient-to-r from-espresso/70 via-transparent to-espresso/40"></div>
-  </div>
-
-  <div class="relative z-10 max-w-6xl mx-auto px-5 sm:px-8 pb-20 pt-40 w-full">
-    <p class="eyebrow text-honey uppercase mb-5">Madeira de lei &middot; Rio Verde&#8209;GO</p>
-    <h1 class="font-display text-cream text-[2.6rem] sm:text-6xl lg:text-7xl leading-[1.03] max-w-3xl">
-      Madeira que dura <span class="italic text-honey">gerações,</span><br class="hidden sm:block">
-      não apenas temporadas.
-    </h1>
-    <p class="text-cream/80 text-lg sm:text-xl max-w-xl mt-6 font-light">
-      Decks, pergolados, forros e móveis rústicos — construídos e restaurados à mão,
-      com o cuidado de quem entende que madeira bem tratada valoriza a casa toda.
-    </p>
-    <div class="mt-9 flex flex-wrap items-center gap-4">
+  <!-- ===================== HEADER ===================== -->
+  <header class="fixed top-0 left-0 right-0 z-40 bg-espresso/95 backdrop-blur-sm border-b border-white/10">
+    <div class="max-w-6xl mx-auto px-5 sm:px-8 h-16 flex items-center justify-between">
+      <a href="#topo" class="font-display text-cream text-[1.7rem] tracking-wide">
+        Ipê <span class="italic text-honey">Lustração</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-8 text-cream/85 text-sm font-medium">
+        <a href="#sobre" class="hover:text-honey transition-colors">Sobre</a>
+        <a href="#servicos" class="hover:text-honey transition-colors">Serviços</a>
+        <a href="#galeria" class="hover:text-honey transition-colors">Galeria</a>
+        <a href="#contato" class="hover:text-honey transition-colors">Contato</a>
+      </nav>
       <a href="https://wa.me/5564900000000?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento."
-         target="_blank" rel="noopener"
-         class="btn-whatsapp inline-flex items-center gap-3 bg-honey text-espresso font-semibold px-7 py-4 rounded-full text-base">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2s-.8 1-.9 1.2c-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.2-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2.1 3.2 5 4.4.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.6 1.4 5.1L2 22l5-1.3c1.5.8 3.2 1.2 4.9 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.1-.4-4.5-1.2l-.3-.2-3 .8.8-2.9-.2-.3C4 15 3.5 13.5 3.5 12c0-4.7 3.8-8.5 8.5-8.5s8.5 3.8 8.5 8.5-3.8 8.7-8.5 8.7z"/></svg>
-        Solicitar orçamento no WhatsApp
-      </a>
-      <a href="#galeria" class="text-cream/80 hover:text-cream text-sm font-medium underline underline-offset-4 decoration-honey/50">
-        Ver trabalhos realizados
+        target="_blank" rel="noopener"
+        class="hidden sm:inline-flex items-center gap-2 bg-honey hover:bg-honeyLight text-espresso font-semibold text-sm px-5 py-2.5 rounded-full transition-colors">
+        Orçamento no WhatsApp
       </a>
     </div>
+  </header>
 
-    <dl class="mt-14 grid grid-cols-3 max-w-lg gap-6 border-t border-cream/15 pt-7">
-      <div>
-        <dt class="text-cream/55 text-xs eyebrow uppercase">Projetos</dt>
-        <dd class="font-display text-cream text-3xl mt-1">40+</dd>
-      </div>
-      <div>
-        <dt class="text-cream/55 text-xs eyebrow uppercase">Anos de ofício</dt>
-        <dd class="font-display text-cream text-3xl mt-1">10+</dd>
-      </div>
-      <div>
-        <dt class="text-cream/55 text-xs eyebrow uppercase">Região</dt>
-        <dd class="font-display text-cream text-3xl mt-1">GO</dd>
-      </div>
-    </dl>
-  </div>
-</section>
+  <!-- ===================== HERO ===================== -->
+  <section id="topo" class="relative min-h-[100svh] flex items-end wood-grain overflow-hidden">
+    <!-- Foto de fundo impactante (deck junto à piscina, do portfólio do cliente) -->
+    <div class="absolute inset-0">
+      <img src="img/hero.jpg" alt="Deck de madeira ipê construído ao redor de piscina, com cerca-viva ao fundo"
+        class="w-full h-full object-cover opacity-45">
+      <div class="absolute inset-0 bg-gradient-to-t from-espresso via-espresso/70 to-espresso/30"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-espresso/70 via-transparent to-espresso/40"></div>
+    </div>
 
-<!-- Faixa de ripas — divisor de seção que ecoa as tábuas de deck do portfólio -->
-<div class="plank-divider h-3"></div>
+    <div class="relative z-10 max-w-6xl mx-auto px-5 sm:px-8 pb-32 pt-40 w-full">
+      <p class="eyebrow text-honey uppercase mb-[3.25rem]">Madeira de lei &middot; Rio Verde&#8209;GO</p>
+      <h1 class="font-display text-cream text-[2.6rem] sm:text-6xl lg:text-7xl leading-[1.03] max-w-3xl">
+        Madeira que dura <span class="italic text-honey">gerações,</span><br class="hidden sm:block">
+        não apenas temporadas.
+      </h1>
+      <p class="text-cream/80 text-lg sm:text-xl max-w-xl mt-[3.5rem] font-light">
+        Decks, pergolados, forros e móveis rústicos — construídos e restaurados à mão,
+        com o cuidado de quem entende que madeira bem tratada valoriza a casa toda.
+      </p>
+      <div class="mt-9 flex flex-wrap items-center gap-4">
+        <a href="https://wa.me/5564900000000?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento."
+          target="_blank" rel="noopener"
+          class="btn-whatsapp inline-flex items-center gap-3 bg-honey text-espresso font-semibold px-7 py-4 rounded-full text-base">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path
+              d="M17.5 14.4c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2s-.8 1-.9 1.2c-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.2-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2.1 3.2 5 4.4.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.3z" />
+            <path
+              d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.6 1.4 5.1L2 22l5-1.3c1.5.8 3.2 1.2 4.9 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.1-.4-4.5-1.2l-.3-.2-3 .8.8-2.9-.2-.3C4 15 3.5 13.5 3.5 12c0-4.7 3.8-8.5 8.5-8.5s8.5 3.8 8.5 8.5-3.8 8.7-8.5 8.7z" />
+          </svg>
+          Solicitar orçamento no WhatsApp
+        </a>
+        <a href="#galeria"
+          class="text-cream/80 hover:text-cream text-sm font-medium underline underline-offset-4 decoration-honey/50">
+          Ver trabalhos realizados
+        </a>
+      </div>
 
-<!-- ===================== SOBRE ===================== -->
-<section id="sobre" class="bg-cream py-24 sm:py-32">
-  <div class="max-w-6xl mx-auto px-5 sm:px-8 grid lg:grid-cols-2 gap-14 items-center">
-    <div>
-      <p class="eyebrow text-walnut uppercase mb-4">Sobre a Ipê Lustração</p>
-      <h2 class="font-display text-4xl sm:text-5xl leading-tight text-espresso">
-        Cada tábua é tratada como parte de um <span class="italic text-walnut">patrimônio</span>, não de uma reforma qualquer.
+      <dl class="mt-14 grid grid-cols-3 max-w-lg gap-6 border-t border-cream/15 pt-7">
+        <div>
+          <dt class="text-cream/55 text-xs eyebrow uppercase">Projetos</dt>
+          <dd class="font-display text-cream text-3xl mt-1">40+</dd>
+        </div>
+        <div>
+          <dt class="text-cream/55 text-xs eyebrow uppercase">Anos de ofício</dt>
+          <dd class="font-display text-cream text-3xl mt-1">10+</dd>
+        </div>
+        <div>
+          <dt class="text-cream/55 text-xs eyebrow uppercase">Região</dt>
+          <dd class="font-display text-cream text-3xl mt-1">GO</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- Faixa de ripas — divisor de seção que ecoa as tábuas de deck do portfólio -->
+  <div class="plank-divider h-3"></div>
+
+  <!-- ===================== SOBRE ===================== -->
+  <section id="sobre" class="bg-cream py-24 sm:py-32">
+    <div class="max-w-6xl mx-auto px-5 sm:px-8 grid lg:grid-cols-2 gap-14 items-center">
+      <div>
+        <p class="eyebrow text-walnut uppercase mb-4">Sobre a Ipê Lustração</p>
+        <h2 class="font-display text-4xl sm:text-5xl leading-tight text-espresso">
+          Cada tábua é tratada como parte de um <span class="italic text-walnut">patrimônio</span>, não de uma reforma
+          qualquer.
+        </h2>
+        <div class="mt-7 space-y-5 text-espresso/80 text-[1.05rem] leading-relaxed">
+          <p>
+            Trabalhamos com madeira de lei — a mesma que resiste ao sol, à chuva e ao tempo de Rio Verde
+            quando recebe o preparo certo. Cada deck, pergolado ou móvel que sai daqui passa por
+            seleção de material, corte sob medida e um acabamento de lustração pensado para durar anos, não meses.
+          </p>
+          <p>
+            Não vendemos apenas madeira montada: entregamos uma estrutura que valoriza o imóvel,
+            resiste às estações e envelhece com elegância — do jeito que só a madeira maciça faz.
+          </p>
+        </div>
+        <div class="mt-9 grid sm:grid-cols-3 gap-6">
+          <div class="border-t-2 border-honey pt-4">
+            <p class="font-display text-lg text-espresso">Durabilidade</p>
+            <p class="text-sm text-espresso/65 mt-1">Tratamento e lustração feitos para resistir ao clima do
+              Centro-Oeste.</p>
+          </div>
+          <div class="border-t-2 border-honey pt-4">
+            <p class="font-display text-lg text-espresso">Acabamento à mão</p>
+            <p class="text-sm text-espresso/65 mt-1">Cada peça lixada, tratada e lustrada artesanalmente.</p>
+          </div>
+          <div class="border-t-2 border-honey pt-4">
+            <p class="font-display text-lg text-espresso">Valorização do imóvel</p>
+            <p class="text-sm text-espresso/65 mt-1">Estruturas que se tornam diferencial de venda e uso do espaço.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="relative">
+        <img src="img/sobre.jpg" alt="Pergolado de madeira sobre área de piscina"
+          class="w-full aspect-[4/5] object-cover rounded-sm shadow-2xl">
+        <div
+          class="absolute -bottom-6 -left-6 hidden sm:block bg-espresso text-cream p-5 rounded-sm shadow-xl max-w-[220px]">
+          <p class="font-display italic text-honey text-lg leading-snug">"Madeira bem cuidada não envelhece —
+            amadurece."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVIÇOS ===================== -->
+  <section id="servicos" class="bg-espresso2 py-24 sm:py-32">
+    <div class="max-w-6xl mx-auto px-5 sm:px-8">
+      <div class="max-w-2xl mb-14">
+        <p class="eyebrow text-honey uppercase mb-4">O que fazemos</p>
+        <h2 class="font-display text-4xl sm:text-5xl text-cream leading-tight">Serviços de marcenaria e carpintaria</h2>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- Card 1 -->
+        <div class="service-card bg-espresso border border-white/10 rounded-sm p-8">
+          <svg class="w-9 h-9 text-honey mb-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M3 20h18M4 20V10l8-6 8 6v10M9 20v-6h6v6" />
+          </svg>
+          <h3 class="font-display text-xl text-cream mb-2">Decks de Piscina</h3>
+          <p class="text-cream/60 text-sm leading-relaxed">Decks sob medida com madeira tratada para contato direto com
+            água e sol, sem empenar ou rachar.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="service-card bg-espresso border border-white/10 rounded-sm p-8">
+          <svg class="w-9 h-9 text-honey mb-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M3 8h18M5 8v13M19 8v13M3 8l3-4h12l3 4M8 21v-8M12 21v-8M16 21v-8" />
+          </svg>
+          <h3 class="font-display text-xl text-cream mb-2">Pergolados</h3>
+          <p class="text-cream/60 text-sm leading-relaxed">Estruturas de sombreamento projetadas para áreas externas,
+            integradas à arquitetura da casa.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="service-card bg-espresso border border-white/10 rounded-sm p-8">
+          <svg class="w-9 h-9 text-honey mb-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="5" y="3" width="14" height="18" rx="1" />
+            <circle cx="15" cy="12" r="1" />
+          </svg>
+          <h3 class="font-display text-xl text-cream mb-2">Portas de Madeira</h3>
+          <p class="text-cream/60 text-sm leading-relaxed">Instalação e lustração de portas maciças, com acabamento que
+            realça o veio natural da madeira.</p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="service-card bg-espresso border border-white/10 rounded-sm p-8">
+          <svg class="w-9 h-9 text-honey mb-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M4 6h16M4 6l2 14h12l2-14M4 6L6 4h12l2 2" />
+          </svg>
+          <h3 class="font-display text-xl text-cream mb-2">Forros de Madeira</h3>
+          <p class="text-cream/60 text-sm leading-relaxed">Forro paulista e revestimentos de teto que aquecem o ambiente
+            e escondem instalações com elegância.</p>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="service-card bg-espresso border border-white/10 rounded-sm p-8">
+          <svg class="w-9 h-9 text-honey mb-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M4 19h16M6 19v-5h12v5M4 10h16l-2-4H6l-2 4z" />
+          </svg>
+          <h3 class="font-display text-xl text-cream mb-2">Móveis Rústicos</h3>
+          <p class="text-cream/60 text-sm leading-relaxed">Bancos, mesas, bares e aparadores em madeira maciça, feitos
+            sob medida para cada espaço.</p>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="service-card bg-espresso border border-white/10 rounded-sm p-8">
+          <svg class="w-9 h-9 text-honey mb-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M3 21l6-6M14 4l6 6-9 9-6-6zM14 4l-3 3" />
+          </svg>
+          <h3 class="font-display text-xl text-cream mb-2">Restauração &amp; Lustração</h3>
+          <p class="text-cream/60 text-sm leading-relaxed">Recuperação de estruturas desgastadas: lixamento, tratamento
+            e nova lustração devolvem a vida à madeira.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ANTES / DEPOIS (elemento assinatura) ===================== -->
+  <section class="bg-cream py-24 sm:py-32">
+    <div class="max-w-6xl mx-auto px-5 sm:px-8">
+      <div class="max-w-2xl mb-12">
+        <p class="eyebrow text-walnut uppercase mb-4">Transformação real</p>
+        <h2 class="font-display text-4xl sm:text-5xl text-espresso leading-tight">Arraste para ver a diferença</h2>
+        <p class="text-espresso/70 mt-4">Madeira desgastada recebe lixamento, tratamento e lustração — e volta a ter a
+          cor e a proteção de estrutura nova.</p>
+      </div>
+
+      <div class="grid lg:grid-cols-2 gap-8">
+        <div class="ba-wrap" id="baSlider1">
+          <img class="ba-after" src="img/servicos/servicos1-after.jpg"
+            alt="Deck de madeira restaurado, tábuas escuras e uniformes">
+          <div class="ba-before-clip" id="baClip1">
+            <img src="img/servicos/servicos1-before.jpg"
+              alt="Madeira antes da restauração, tábuas claras e desgastadas">
+          </div>
+          <span class="ba-tag" style="left:0.85rem;">ANTES</span>
+          <span class="ba-tag" style="right:0.85rem;">DEPOIS</span>
+          <div class="ba-handle" id="baHandle1" style="left:50%;"></div>
+        </div>
+
+        <div class="ba-wrap" id="baSlider2">
+          <img class="ba-after" src="img/servicos/servicos2-after.jpg"
+            alt="Móvel de madeira lustrado, acabamento escuro e brilhoso">
+          <div class="ba-before-clip" id="baClip2">
+            <img src="img/servicos/servicos2-before.jpg" alt="Móvel de madeira antes da lustração, acabamento opaco">
+          </div>
+          <span class="ba-tag" style="left:0.85rem;">ANTES</span>
+          <span class="ba-tag" style="right:0.85rem;">DEPOIS</span>
+          <div class="ba-handle" id="baHandle2" style="left:50%;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== GALERIA ===================== -->
+  <section id="galeria" class="bg-espresso2 py-24 sm:py-32">
+    <div class="max-w-6xl mx-auto px-5 sm:px-8">
+      <div class="max-w-2xl mb-14">
+        <p class="eyebrow text-honey uppercase mb-4">Portfólio</p>
+        <h2 class="font-display text-4xl sm:text-5xl text-cream leading-tight">Trabalhos realizados</h2>
+      </div>
+
+      <div class="masonry">
+        <div class="masonry-item">
+          <img src="img/galeria/galeria1.jpg" alt="Deck de madeira contornando piscina com cerca-viva">
+          <div class="masonry-caption">
+            <p class="text-cream text-sm font-medium">Deck de piscina · residência com cerca-viva</p>
+          </div>
+        </div>
+        <div class="masonry-item">
+          <img src="img/galeria/galeria2.jpg" alt="Pergolado de madeira integrado a área envidraçada">
+          <div class="masonry-caption">
+            <p class="text-cream text-sm font-medium">Pergolado · integração com área envidraçada</p>
+          </div>
+        </div>
+        <div class="masonry-item">
+          <img src="img/galeria/galeria3.jpg" alt="Porta dupla de madeira escura com puxadores em inox">
+          <div class="masonry-caption">
+            <p class="text-cream text-sm font-medium">Porta de madeira · acabamento escuro fosco</p>
+          </div>
+        </div>
+        <div class="masonry-item">
+          <img src="img/galeria/galeria4.jpg" alt="Deck diagonal junto à borda de piscina">
+          <div class="masonry-caption">
+            <p class="text-cream text-sm font-medium">Deck de piscina · assentamento diagonal</p>
+          </div>
+        </div>
+        <div class="masonry-item">
+          <img src="img/galeria/galeria5.jpg" alt="Bar de madeira rústica sob medida em área de lazer">
+          <div class="masonry-caption">
+            <p class="text-cream text-sm font-medium">Móvel rústico · bar sob medida</p>
+          </div>
+        </div>
+        <div class="masonry-item">
+          <img src="img/galeria/galeria6.jpg" alt="Forro de madeira em área gourmet coberta">
+          <div class="masonry-caption">
+            <p class="text-cream text-sm font-medium">Forro de madeira · área gourmet</p>
+          </div>
+        </div>
+        <div class="masonry-item">
+          <img src="img/galeria/galeria7.jpg" alt="Porta de madeira com detalhes em vidro e puxadores em inox">
+          <div class="masonry-caption">
+            <p class="text-cream text-sm font-medium">Porta de madeira · vidro e inox</p>
+          </div>
+        </div>
+        <div class="masonry-item">
+          <img src="img/galeria/galeria8.jpg" alt="Fechamento em madeira de condomínio residencial">
+          <div class="masonry-caption">
+            <p class="text-cream text-sm font-medium">Fechamento em madeira · condomínio residencial</p>
+          </div>
+        </div>
+        <div class="masonry-item">
+          <img src="img/galeria/galeria9.jpg" alt="Aparador de madeira maciça com vasos de plantas">
+          <div class="masonry-caption">
+            <p class="text-cream text-sm font-medium">Móvel rústico · aparador sob medida</p>
+          </div>
+        </div>
+        <div class="masonry-item">
+          <img src="img/galeria/galeria10.jpg" alt="Jardineira de alvenaria com acabamento superior em madeira">
+          <div class="masonry-caption">
+            <p class="text-cream text-sm font-medium">Acabamento em madeira · jardineira</p>
+          </div>
+        </div>
+        <div class="masonry-item">
+          <img src="img/galeria/galeria11.jpg" alt="Deck e guarda-corpo de madeira em área externa coberta">
+          <div class="masonry-caption">
+            <p class="text-cream text-sm font-medium">Deck e guarda-corpo · área coberta</p>
+          </div>
+        </div>
+        <div class="masonry-item">
+          <img src="img/galeria/galeria12.jpg" alt="Detalhe de banco de madeira maciça lustrado">
+          <div class="masonry-caption">
+            <p class="text-cream text-sm font-medium">Móvel rústico · banco lustrado</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-14">
+        <a href="https://wa.me/5564900000000?text=Ol%C3%A1!%20Vi%20a%20galeria%20do%20site%20e%20quero%20um%20or%C3%A7amento."
+          target="_blank" rel="noopener"
+          class="btn-whatsapp inline-flex items-center gap-3 bg-honey text-espresso font-semibold px-7 py-4 rounded-full text-base">
+          Quero um projeto assim no meu espaço
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA FINAL ===================== -->
+  <section class="wood-grain py-20">
+    <div class="max-w-4xl mx-auto px-5 sm:px-8 text-center">
+      <h2 class="font-display text-3xl sm:text-4xl text-cream leading-snug">
+        Sua área externa merece madeira que <span class="italic text-honey">envelhece bem.</span>
       </h2>
-      <div class="mt-7 space-y-5 text-espresso/80 text-[1.05rem] leading-relaxed">
-        <p>
-          Trabalhamos com madeira de lei — a mesma que resiste ao sol, à chuva e ao tempo de Rio Verde
-          quando recebe o preparo certo. Cada deck, pergolado ou móvel que sai daqui passa por
-          seleção de material, corte sob medida e um acabamento de lustração pensado para durar anos, não meses.
-        </p>
-        <p>
-          Não vendemos apenas madeira montada: entregamos uma estrutura que valoriza o imóvel,
-          resiste às estações e envelhece com elegância — do jeito que só a madeira maciça faz.
-        </p>
-      </div>
-      <div class="mt-9 grid sm:grid-cols-3 gap-6">
-        <div class="border-t-2 border-honey pt-4">
-          <p class="font-display text-lg text-espresso">Durabilidade</p>
-          <p class="text-sm text-espresso/65 mt-1">Tratamento e lustração feitos para resistir ao clima do Centro-Oeste.</p>
-        </div>
-        <div class="border-t-2 border-honey pt-4">
-          <p class="font-display text-lg text-espresso">Acabamento à mão</p>
-          <p class="text-sm text-espresso/65 mt-1">Cada peça lixada, tratada e lustrada artesanalmente.</p>
-        </div>
-        <div class="border-t-2 border-honey pt-4">
-          <p class="font-display text-lg text-espresso">Valorização do imóvel</p>
-          <p class="text-sm text-espresso/65 mt-1">Estruturas que se tornam diferencial de venda e uso do espaço.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="relative">
-      <img src="img/sobre.jpg" alt="Pergolado de madeira sobre área de piscina"
-           class="w-full aspect-[4/5] object-cover rounded-sm shadow-2xl">
-      <div class="absolute -bottom-6 -left-6 hidden sm:block bg-espresso text-cream p-5 rounded-sm shadow-xl max-w-[220px]">
-        <p class="font-display italic text-honey text-lg leading-snug">"Madeira bem cuidada não envelhece — amadurece."</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===================== SERVIÇOS ===================== -->
-<section id="servicos" class="bg-espresso2 py-24 sm:py-32">
-  <div class="max-w-6xl mx-auto px-5 sm:px-8">
-    <div class="max-w-2xl mb-14">
-      <p class="eyebrow text-honey uppercase mb-4">O que fazemos</p>
-      <h2 class="font-display text-4xl sm:text-5xl text-cream leading-tight">Serviços de marcenaria e carpintaria</h2>
-    </div>
-
-    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-
-      <!-- Card 1 -->
-      <div class="service-card bg-espresso border border-white/10 rounded-sm p-8">
-        <svg class="w-9 h-9 text-honey mb-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 20h18M4 20V10l8-6 8 6v10M9 20v-6h6v6"/></svg>
-        <h3 class="font-display text-xl text-cream mb-2">Decks de Piscina</h3>
-        <p class="text-cream/60 text-sm leading-relaxed">Decks sob medida com madeira tratada para contato direto com água e sol, sem empenar ou rachar.</p>
-      </div>
-
-      <!-- Card 2 -->
-      <div class="service-card bg-espresso border border-white/10 rounded-sm p-8">
-        <svg class="w-9 h-9 text-honey mb-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 8h18M5 8v13M19 8v13M3 8l3-4h12l3 4M8 21v-8M12 21v-8M16 21v-8"/></svg>
-        <h3 class="font-display text-xl text-cream mb-2">Pergolados</h3>
-        <p class="text-cream/60 text-sm leading-relaxed">Estruturas de sombreamento projetadas para áreas externas, integradas à arquitetura da casa.</p>
-      </div>
-
-      <!-- Card 3 -->
-      <div class="service-card bg-espresso border border-white/10 rounded-sm p-8">
-        <svg class="w-9 h-9 text-honey mb-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="3" width="14" height="18" rx="1"/><circle cx="15" cy="12" r="1"/></svg>
-        <h3 class="font-display text-xl text-cream mb-2">Portas de Madeira</h3>
-        <p class="text-cream/60 text-sm leading-relaxed">Instalação e lustração de portas maciças, com acabamento que realça o veio natural da madeira.</p>
-      </div>
-
-      <!-- Card 4 -->
-      <div class="service-card bg-espresso border border-white/10 rounded-sm p-8">
-        <svg class="w-9 h-9 text-honey mb-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 6h16M4 6l2 14h12l2-14M4 6L6 4h12l2 2"/></svg>
-        <h3 class="font-display text-xl text-cream mb-2">Forros de Madeira</h3>
-        <p class="text-cream/60 text-sm leading-relaxed">Forro paulista e revestimentos de teto que aquecem o ambiente e escondem instalações com elegância.</p>
-      </div>
-
-      <!-- Card 5 -->
-      <div class="service-card bg-espresso border border-white/10 rounded-sm p-8">
-        <svg class="w-9 h-9 text-honey mb-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 19h16M6 19v-5h12v5M4 10h16l-2-4H6l-2 4z"/></svg>
-        <h3 class="font-display text-xl text-cream mb-2">Móveis Rústicos</h3>
-        <p class="text-cream/60 text-sm leading-relaxed">Bancos, mesas, bares e aparadores em madeira maciça, feitos sob medida para cada espaço.</p>
-      </div>
-
-      <!-- Card 6 -->
-      <div class="service-card bg-espresso border border-white/10 rounded-sm p-8">
-        <svg class="w-9 h-9 text-honey mb-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21l6-6M14 4l6 6-9 9-6-6zM14 4l-3 3"/></svg>
-        <h3 class="font-display text-xl text-cream mb-2">Restauração &amp; Lustração</h3>
-        <p class="text-cream/60 text-sm leading-relaxed">Recuperação de estruturas desgastadas: lixamento, tratamento e nova lustração devolvem a vida à madeira.</p>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- ===================== ANTES / DEPOIS (elemento assinatura) ===================== -->
-<section class="bg-cream py-24 sm:py-32">
-  <div class="max-w-6xl mx-auto px-5 sm:px-8">
-    <div class="max-w-2xl mb-12">
-      <p class="eyebrow text-walnut uppercase mb-4">Transformação real</p>
-      <h2 class="font-display text-4xl sm:text-5xl text-espresso leading-tight">Arraste para ver a diferença</h2>
-      <p class="text-espresso/70 mt-4">Madeira desgastada recebe lixamento, tratamento e lustração — e volta a ter a cor e a proteção de estrutura nova.</p>
-    </div>
-
-    <div class="grid lg:grid-cols-2 gap-8">
-      <div class="ba-wrap" id="baSlider1">
-        <img class="ba-after" src="img/servicos/servicos1-after.jpg" alt="Deck de madeira restaurado, tábuas escuras e uniformes">
-        <div class="ba-before-clip" id="baClip1">
-          <img src="img/servicos/servicos1-before.jpg" alt="Madeira antes da restauração, tábuas claras e desgastadas">
-        </div>
-        <span class="ba-tag" style="left:0.85rem;">ANTES</span>
-        <span class="ba-tag" style="right:0.85rem;">DEPOIS</span>
-        <div class="ba-handle" id="baHandle1" style="left:50%;"></div>
-      </div>
-
-      <div class="ba-wrap" id="baSlider2">
-        <img class="ba-after" src="img/servicos/servicos2-after.jpg" alt="Móvel de madeira lustrado, acabamento escuro e brilhoso">
-        <div class="ba-before-clip" id="baClip2">
-          <img src="img/servicos/servicos2-before.jpg" alt="Móvel de madeira antes da lustração, acabamento opaco">
-        </div>
-        <span class="ba-tag" style="left:0.85rem;">ANTES</span>
-        <span class="ba-tag" style="right:0.85rem;">DEPOIS</span>
-        <div class="ba-handle" id="baHandle2" style="left:50%;"></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===================== GALERIA ===================== -->
-<section id="galeria" class="bg-espresso2 py-24 sm:py-32">
-  <div class="max-w-6xl mx-auto px-5 sm:px-8">
-    <div class="max-w-2xl mb-14">
-      <p class="eyebrow text-honey uppercase mb-4">Portfólio</p>
-      <h2 class="font-display text-4xl sm:text-5xl text-cream leading-tight">Trabalhos realizados</h2>
-    </div>
-
-    <div class="masonry">
-      <div class="masonry-item">
-        <img src="img/galeria/galeria1.jpg" alt="Deck de madeira contornando piscina com cerca-viva">
-        <div class="masonry-caption"><p class="text-cream text-sm font-medium">Deck de piscina · residência com cerca-viva</p></div>
-      </div>
-      <div class="masonry-item">
-        <img src="img/galeria/galeria2.jpg" alt="Pergolado de madeira integrado a área envidraçada">
-        <div class="masonry-caption"><p class="text-cream text-sm font-medium">Pergolado · integração com área envidraçada</p></div>
-      </div>
-      <div class="masonry-item">
-        <img src="img/galeria/galeria3.jpg" alt="Porta dupla de madeira escura com puxadores em inox">
-        <div class="masonry-caption"><p class="text-cream text-sm font-medium">Porta de madeira · acabamento escuro fosco</p></div>
-      </div>
-      <div class="masonry-item">
-        <img src="img/galeria/galeria4.jpg" alt="Deck diagonal junto à borda de piscina">
-        <div class="masonry-caption"><p class="text-cream text-sm font-medium">Deck de piscina · assentamento diagonal</p></div>
-      </div>
-      <div class="masonry-item">
-        <img src="img/galeria/galeria5.jpg" alt="Bar de madeira rústica sob medida em área de lazer">
-        <div class="masonry-caption"><p class="text-cream text-sm font-medium">Móvel rústico · bar sob medida</p></div>
-      </div>
-      <div class="masonry-item">
-        <img src="img/galeria/galeria6.jpg" alt="Forro de madeira em área gourmet coberta">
-        <div class="masonry-caption"><p class="text-cream text-sm font-medium">Forro de madeira · área gourmet</p></div>
-      </div>
-      <div class="masonry-item">
-        <img src="img/galeria/galeria7.jpg" alt="Porta de madeira com detalhes em vidro e puxadores em inox">
-        <div class="masonry-caption"><p class="text-cream text-sm font-medium">Porta de madeira · vidro e inox</p></div>
-      </div>
-      <div class="masonry-item">
-        <img src="img/galeria/galeria8.jpg" alt="Fechamento em madeira de condomínio residencial">
-        <div class="masonry-caption"><p class="text-cream text-sm font-medium">Fechamento em madeira · condomínio residencial</p></div>
-      </div>
-      <div class="masonry-item">
-        <img src="img/galeria/galeria9.jpg" alt="Aparador de madeira maciça com vasos de plantas">
-        <div class="masonry-caption"><p class="text-cream text-sm font-medium">Móvel rústico · aparador sob medida</p></div>
-      </div>
-      <div class="masonry-item">
-        <img src="img/galeria/galeria10.jpg" alt="Jardineira de alvenaria com acabamento superior em madeira">
-        <div class="masonry-caption"><p class="text-cream text-sm font-medium">Acabamento em madeira · jardineira</p></div>
-      </div>
-      <div class="masonry-item">
-        <img src="img/galeria/galeria11.jpg" alt="Deck e guarda-corpo de madeira em área externa coberta">
-        <div class="masonry-caption"><p class="text-cream text-sm font-medium">Deck e guarda-corpo · área coberta</p></div>
-      </div>
-      <div class="masonry-item">
-        <img src="img/galeria/galeria12.jpg" alt="Detalhe de banco de madeira maciça lustrado">
-        <div class="masonry-caption"><p class="text-cream text-sm font-medium">Móvel rústico · banco lustrado</p></div>
-      </div>
-    </div>
-
-    <div class="text-center mt-14">
-      <a href="https://wa.me/5564900000000?text=Ol%C3%A1!%20Vi%20a%20galeria%20do%20site%20e%20quero%20um%20or%C3%A7amento."
-         target="_blank" rel="noopener"
-         class="btn-whatsapp inline-flex items-center gap-3 bg-honey text-espresso font-semibold px-7 py-4 rounded-full text-base">
-        Quero um projeto assim no meu espaço
+      <p class="text-cream/70 mt-4 max-w-xl mx-auto">Fale agora com quem entende de madeira de lei em Rio Verde-GO e
+        receba uma avaliação sem compromisso.</p>
+      <a href="https://wa.me/5564900000000?text=Ol%C3%A1!%20Quero%20uma%20avalia%C3%A7%C3%A3o%20sem%20compromisso."
+        target="_blank" rel="noopener"
+        class="btn-whatsapp inline-flex items-center gap-3 bg-honey text-espresso font-semibold px-8 py-4 rounded-full text-base mt-8">
+        Falar no WhatsApp agora
       </a>
     </div>
-  </div>
-</section>
-
-<!-- ===================== CTA FINAL ===================== -->
-<section class="wood-grain py-20">
-  <div class="max-w-4xl mx-auto px-5 sm:px-8 text-center">
-    <h2 class="font-display text-3xl sm:text-4xl text-cream leading-snug">
-      Sua área externa merece madeira que <span class="italic text-honey">envelhece bem.</span>
-    </h2>
-    <p class="text-cream/70 mt-4 max-w-xl mx-auto">Fale agora com quem entende de madeira de lei em Rio Verde-GO e receba uma avaliação sem compromisso.</p>
-    <a href="https://wa.me/5564900000000?text=Ol%C3%A1!%20Quero%20uma%20avalia%C3%A7%C3%A3o%20sem%20compromisso."
-       target="_blank" rel="noopener"
-       class="btn-whatsapp inline-flex items-center gap-3 bg-honey text-espresso font-semibold px-8 py-4 rounded-full text-base mt-8">
-      Falar no WhatsApp agora
-    </a>
-  </div>
-</section>
+  </section>
 
 <!-- ===================== RODAPÉ ===================== -->
-<footer id="contato" class="bg-espresso2 border-t border-white/10 pt-16 pb-28 sm:pb-16">
-  <div class="max-w-6xl mx-auto px-5 sm:px-8 grid sm:grid-cols-3 gap-10">
-    <div>
-      <p class="font-display text-cream text-xl">Ipê <span class="italic text-honey">Lustração</span></p>
-      <p class="text-cream/55 text-sm mt-3 leading-relaxed">Carpintaria especializada em decks, pergolados, forros, móveis rústicos e restauração de madeira em Rio Verde-GO.</p>
+  <footer id="contato" class="bg-espresso2 border-t border-white/10 pt-16 pb-[3rem] sm:pb-16">
+    <div class="max-w-6xl mx-auto px-5 sm:px-8 grid sm:grid-cols-3 gap-10">
+      <div>
+        <p class="font-display text-cream text-xl">Ipê <span class="italic text-honey">Lustração</span></p>
+        <p class="text-cream/55 text-sm mt-3 leading-relaxed">Carpintaria especializada em decks, pergolados, forros,
+          móveis rústicos e restauração de madeira em Rio Verde-GO.</p>
+      </div>
+      <div>
+        <p class="eyebrow text-honey uppercase mb-3">Contato</p>
+        <ul class="text-cream/70 text-sm space-y-2">
+          <li>Rio Verde &ndash; GO</li>
+          <li><a href="https://wa.me/5564900000000" target="_blank" rel="noopener"
+              class="hover:text-honey transition-colors">WhatsApp: (64) 90000-0000</a></li>
+          <li><a href="https://instagram.com/ipe_ilustrar" target="_blank" rel="noopener"
+              class="hover:text-honey transition-colors">@ipe_ilustrar</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="eyebrow text-honey uppercase mb-3">Navegação</p>
+        <ul class="text-cream/70 text-sm space-y-2">
+          <li><a href="#sobre" class="hover:text-honey transition-colors">Sobre</a></li>
+          <li><a href="#servicos" class="hover:text-honey transition-colors">Serviços</a></li>
+          <li><a href="#galeria" class="hover:text-honey transition-colors">Galeria</a></li>
+        </ul>
+      </div>
     </div>
-    <div>
-      <p class="eyebrow text-honey uppercase mb-3">Contato</p>
-      <ul class="text-cream/70 text-sm space-y-2">
-        <li>Rio Verde &ndash; GO</li>
-        <li><a href="https://wa.me/5564900000000" target="_blank" rel="noopener" class="hover:text-honey transition-colors">WhatsApp: (64) 90000-0000</a></li>
-        <li><a href="https://instagram.com/ipe_ilustrar" target="_blank" rel="noopener" class="hover:text-honey transition-colors">@ipe_ilustrar</a></li>
-      </ul>
+    <div class="max-w-6xl mx-auto px-5 sm:px-8 mt-12 pt-6 border-t border-white/10 text-cream/40 text-xs flex flex-col sm:flex-row justify-between gap-2">
+      <div class="mt-4 sm:mt-0">
+        &copy; <span id="ano"></span> Ipê Lustração &middot; Rio Verde-GO
+      </div>
+      <div class="mt-4 sm:mt-0">
+        Desenvolvido por <a href="#" class="hover:text-cream/70 transition-colors">ChupaBalaHalls</a>
+      </div>
     </div>
-    <div>
-      <p class="eyebrow text-honey uppercase mb-3">Navegação</p>
-      <ul class="text-cream/70 text-sm space-y-2">
-        <li><a href="#sobre" class="hover:text-honey transition-colors">Sobre</a></li>
-        <li><a href="#servicos" class="hover:text-honey transition-colors">Serviços</a></li>
-        <li><a href="#galeria" class="hover:text-honey transition-colors">Galeria</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="max-w-6xl mx-auto px-5 sm:px-8 mt-12 pt-6 border-t border-white/10 text-cream/40 text-xs">
-    &copy; <span id="ano"></span> Ipê Lustração &middot; Rio Verde-GO
-  </div>
-</footer>
+  </footer>
 
-<!-- Botão flutuante do WhatsApp -->
-<a href="https://wa.me/5564900000000?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento."
-   target="_blank" rel="noopener" aria-label="Falar no WhatsApp"
-   class="btn-whatsapp fixed bottom-6 right-6 z-50 bg-honey text-espresso rounded-full p-4 shadow-2xl flex items-center justify-center">
-  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2s-.8 1-.9 1.2c-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.2-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2.1 3.2 5 4.4.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.6 1.4 5.1L2 22l5-1.3c1.5.8 3.2 1.2 4.9 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.1-.4-4.5-1.2l-.3-.2-3 .8.8-2.9-.2-.3C4 15 3.5 13.5 3.5 12c0-4.7 3.8-8.5 8.5-8.5s8.5 3.8 8.5 8.5-3.8 8.7-8.5 8.7z"/></svg>
-</a>
+  <!-- Botão flutuante do WhatsApp -->
+  <a href="https://wa.me/5564900000000?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento."
+    target="_blank" rel="noopener" aria-label="Falar no WhatsApp"
+    class="btn-whatsapp fixed bottom-6 right-6 z-50 bg-honey text-espresso rounded-full p-4 shadow-2xl flex items-center justify-center">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path
+        d="M17.5 14.4c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2s-.8 1-.9 1.2c-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.2-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2.1 3.2 5 4.4.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.3z" />
+      <path
+        d="M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.6 1.4 5.1L2 22l5-1.3c1.5.8 3.2 1.2 4.9 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.1-.4-4.5-1.2l-.3-.2-3 .8.8-2.9-.2-.3C4 15 3.5 13.5 3.5 12c0-4.7 3.8-8.5 8.5-8.5s8.5 3.8 8.5 8.5-3.8 8.7-8.5 8.7z" />
+    </svg>
+  </a>
 
-<script>
-  document.getElementById('ano').textContent = new Date().getFullYear();
+  <script>
+    document.getElementById('ano').textContent = new Date().getFullYear();
 
-  // ---- Slider interativo Antes/Depois ----
-  function setupBeforeAfter(wrapId, clipId, handleId) {
-    const wrap = document.getElementById(wrapId);
-    const clip = document.getElementById(clipId);
-    const handle = document.getElementById(handleId);
-    let dragging = false;
+    // ---- Slider Antes/Depois otimizado para Touch e Mouse ----
+    function setupBeforeAfter(wrapId, clipId, handleId) {
+      const wrap = document.getElementById(wrapId);
+      const clip = document.getElementById(clipId);
+      const handle = document.getElementById(handleId);
 
-    function update(clientX) {
-      const rect = wrap.getBoundingClientRect();
-      let pct = ((clientX - rect.left) / rect.width) * 100;
-      pct = Math.max(0, Math.min(100, pct));
-      clip.style.width = pct + '%';
-      handle.style.left = pct + '%';
+      function update(clientX) {
+        const rect = wrap.getBoundingClientRect();
+        let pct = ((clientX - rect.left) / rect.width) * 100;
+        pct = Math.max(0, Math.min(100, pct));
+        clip.style.width = pct + '%';
+        handle.style.left = pct + '%';
+      }
+
+      // Estado inicial em 50%
+      clip.style.width = '50%';
+      handle.style.left = '50%';
+
+      // Suporte a Mouse (Desktop)
+      let isDragging = false;
+      handle.addEventListener('mousedown', () => isDragging = true);
+      wrap.addEventListener('mousedown', (e) => {
+        isDragging = true;
+        update(e.clientX);
+      });
+      window.addEventListener('mousemove', (e) => {
+        if (!isDragging) return;
+        update(e.clientX);
+      });
+      window.addEventListener('mouseup', () => isDragging = false);
+
+      // Suporte a Toque Direto (Mobile / Celular)
+      wrap.addEventListener('touchstart', (e) => {
+        if (e.touches.length > 0) {
+          update(e.touches[0].clientX);
+        }
+      }, { passive: true });
+
+      wrap.addEventListener('touchmove', (e) => {
+        if (e.touches.length > 0) {
+          update(e.touches[0].clientX);
+          // Impede a rolagem da página vertical apenas enquanto arrasta horizontalmente no card
+          e.preventDefault();
+        }
+      }, { passive: false });
+
+      // Suporte a teclado (Acessibilidade)
+      handle.setAttribute('tabindex', '0');
+      handle.setAttribute('role', 'slider');
+      handle.setAttribute('aria-label', 'Comparar antes e depois');
+      handle.addEventListener('keydown', (e) => {
+        let current = parseFloat(clip.style.width) || 50;
+        if (e.key === 'ArrowLeft') current = Math.max(0, current - 5);
+        if (e.key === 'ArrowRight') current = Math.min(100, current + 5);
+        clip.style.width = current + '%';
+        handle.style.left = current + '%';
+      });
     }
 
-    // Estado inicial
-    clip.style.width = '50%';
+    // ---- ATIVAÇÃO DOS SLIDERS ----
+    setupBeforeAfter('baSlider1', 'baClip1', 'baHandle1');
+    setupBeforeAfter('baSlider2', 'baClip2', 'baHandle2');
 
-    wrap.addEventListener('pointerdown', (e) => { dragging = true; update(e.clientX); });
-    window.addEventListener('pointermove', (e) => { if (dragging) update(e.clientX); });
-    window.addEventListener('pointerup', () => { dragging = false; });
-
-    // Suporte a teclado (acessibilidade)
-    handle.setAttribute('tabindex', '0');
-    handle.setAttribute('role', 'slider');
-    handle.setAttribute('aria-label', 'Comparar antes e depois');
-    handle.addEventListener('keydown', (e) => {
-      const rect = wrap.getBoundingClientRect();
-      let current = parseFloat(clip.style.width) || 50;
-      if (e.key === 'ArrowLeft') current = Math.max(0, current - 5);
-      if (e.key === 'ArrowRight') current = Math.min(100, current + 5);
-      clip.style.width = current + '%';
-      handle.style.left = current + '%';
+    // ---- Header: leve sombra ao rolar ----
+    const header = document.querySelector('header');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 20) {
+        header.classList.add('shadow-lg');
+      } else {
+        header.classList.remove('shadow-lg');
+      }
     });
-  }
+  </script>
 
-  setupBeforeAfter('baSlider1', 'baClip1', 'baHandle1');
-  setupBeforeAfter('baSlider2', 'baClip2', 'baHandle2');
-
-  // ---- Header: leve sombra ao rolar ----
-  const header = document.querySelector('header');
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 20) {
-      header.classList.add('shadow-lg');
-    } else {
-      header.classList.remove('shadow-lg');
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js');
     }
-  });
-</script>
+  </script>
 
 </body>
+
 </html>
