@@ -1,7 +1,9 @@
 {
   "name": "Ipê Ilustrar",
   "short_name": "Ipê Ilustrar",
-  "start_url": "/",
+  "start_url": "./index.html",
+  "scope": "./",
+  "id": "./",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
